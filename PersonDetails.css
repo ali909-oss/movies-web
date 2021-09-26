@@ -1,0 +1,58 @@
+.person-details{
+  
+    height:40%;
+    width: 100%;  
+    margin-left: 1%;
+    margin-top: 5%;
+    
+}
+.personal-container
+{
+    display: flex;
+    margin-left: 10px;
+    width: 85%;
+    overflow-x:auto;
+
+}
+@media screen and(max-width:375px) {
+    .personal-container{
+        margin-left: 40px;
+        width: 250%;
+    }
+    
+}
+.personal-container img{
+    height: 40%;
+    border-radius: 5%;
+    box-shadow: inset;
+}
+.flex-containers{
+    display: flex;
+}
+.flex-child{
+    height: 100%;
+    width: 70%;
+    
+}
+.floats-child {
+    margin-top: 10px;
+    min-height: 100%;
+    object-fit: contain;
+    width: 22%;
+    border: 2px;
+    border-color: black;
+    border-radius: 3%;
+    margin-left: 20px;
+    background: url("https://www.themoviedb.org/t/p/w1280/fx72xnTrHYLsFA3CUlDbwojH8G7.jpg")  center center/cover no-repeat;
+}
+@media screen and (max-width:375px){
+    .floats-child{
+        height: 25vh;
+            width: 35%;
+            margin-top: 5px;
+    }
+    
+}
+.flex-child{
+    margin-left: 10px;
+}

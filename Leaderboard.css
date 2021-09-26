@@ -1,0 +1,148 @@
+.leader-board{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+.paragraph{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin-left: 30px;
+    font-size: 1em;
+    padding-top: 20px;
+    
+}
+
+.content{
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: block;
+    
+
+}
+.leader{
+    width: 100%;
+    margin: 0;
+    padding: 60;
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    
+}
+.avatar{
+    
+    width: 66px;
+    height: 56px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    
+}
+.meter-all{
+    width: 100%;
+    height: 8px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.meter-thisweek{
+    width: 100%;
+    margin-top: 15px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+    .progress1::-webkit-progress-value
+     {
+        background-image: linear-gradient(to right ,#007991,#78ffd6);
+        
+    }
+    .progress2::-webkit-progress-value{
+        background-image: linear-gradient(to right ,#d88912,#b61018);
+
+    }
+    
+   
+    
+    
+.round{
+    display: flex;
+    align-items:flex-start;
+    align-content:flex-start;
+    justify-content:center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+.data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style-position: inside;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.leftside{
+    height: 0.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.rightside{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+@media screen and(max-width:375px) {
+    .rightside{
+        height: 150vh;
+        width: 100%;
+    }
+    
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(to right ,#007991,#78ffd6);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+  }
+    
+  .dot1{
+    width: 10px;
+    height: 10px;
+    background-image: linear-gradient(to right ,#d88912,#b61018);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+  }
+    
+
+
+
+

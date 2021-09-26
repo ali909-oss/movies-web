@@ -1,0 +1,47 @@
+.movie-details{
+  
+    background: rgba(0,0,0,0.8) url('https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/piz0BFUJ4Bro4BFzxxkNpsGCmOd.jpg') center center/cover no-repeat;
+    height:40%;
+    width: 100%;  
+    background-blend-mode: darken
+    
+   
+    
+}
+.flex-containers{
+    display: flex;
+}
+.flex-child{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;}
+    @media screen and (max-width:375px){
+        .flex-child{
+             font-size: 16px;  
+        }
+        
+
+        
+    }
+
+.float-child {
+    margin-top: 10px;
+    height: 75vh;
+    object-fit: contain;
+    width: 25%;
+    border: 2px;
+    border-color: black;
+    border-radius: 5%;
+    margin-left: 10px;
+    background: url("https://www.themoviedb.org/t/p/w440_and_h660_face/jTqESQl3fvlDbmBVmZeWS1KMGyU.jpg")  center center/cover no-repeat;
+}
+@media screen and (max-width:375px) {
+    .float-child{
+        height: 35vh;
+        width: 30%;
+    }
+    
+}
+.flex-child{
+    margin-left: 10px;
+}
